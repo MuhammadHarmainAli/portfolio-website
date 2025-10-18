@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* index.css ya global.css me add karo */
+.mask-circle {
+  mask: radial-gradient(circle at center, transparent 40%, black 90%);
+  -webkit-mask: radial-gradient(circle at center, transparent 40%, black 90%);
+}
