@@ -9,6 +9,6 @@ export const skill = [
     },
     { 
         category: "Tools & Others", 
-        items: ["Git", "GitHub", "VS Code", "Postman", "Figma"] 
+        items: ["Git", "GitHub", "VS Code", "Vercel", "Postman", "Figma"] 
     },
 ];
