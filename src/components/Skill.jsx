@@ -7,7 +7,7 @@ export const Skill = ({ hasAnimated }) => {
                 <div className={`transition-all duration-1000 delay-200 ${hasAnimated.skills ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                     <h2 className="text-3xl font-bold mb-9 text-center">Skills & Tachnologies</h2>
 
-                    <div className="grid md:grid-cols-2 text-center gap-8">
+                    <div className="grid md:grid-cols-3 text-center gap-8">
                         {skill.map((skillGroup, index) => (
                             <div key={index} className="w-96 mx-auto bg-white p-8 rounded-lg border border-gray-200">
                                 <h3 className="text-lg font-semibold mb-6 text-center">
